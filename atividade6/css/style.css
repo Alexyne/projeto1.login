@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: #333;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.btn-login {
+    background-color: rgb(9, 211, 9);
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+.password-btn {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: blue;
+}
+#user{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

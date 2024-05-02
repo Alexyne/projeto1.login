@@ -1,0 +1,35 @@
+<!-- Alexyne Belarmino n°1 -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    </head>
+    <body>
+        <center><h2>Formulário de Login</h2></center>
+        <center><img id="user" src="./img/user icon.png" alt=" imagem do user login"> </center>
+        <form action="/login" method="post">
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="text" name="Nome de Usuario" placeholder="Nome de Usuario" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha: </label>
+                <input type="password" name="Senha" placeholder="Senha" required>
+            </div>
+            <form action="/submit" method="post">
+                <div>
+                    <label for="country">Nível de Acesso:</label>
+                    <select id="country" name="country">
+                        <option value="brasil">usuário comum</option>
+                        <option value="eua">admin</option>
+                    </select>
+                </div>
+            <button type="submit" class="btn-login">Entrar</button>
+        </form>
+        <a href="./senha.html" class="password-btn">Esqueci a senha</a>
+    </body>
+    </html>
+    
